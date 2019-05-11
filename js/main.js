@@ -1,3 +1,5 @@
+// SIDENAV
+
 const sideNav = document.querySelector('.sidenav');
 M.Sidenav.init(sideNav, {});
 
@@ -9,4 +11,21 @@ M.Slider.init(slider, {
     height: 500,
     transition: 500,
     interval: 6000
+})
+
+// AUTOCOMPLETE
+
+
+const ac = document.querySelector('.autocomplete');
+M.Autocomplete.init(ac, {
+    data: {
+        "Aruba": null,
+        "Cancun Mexico": null,
+        "Hawaii": null,
+        "Florida": null,
+        "California": null,
+        "Jamaica": null,
+        "Europe": null,
+        "Aruba": null,
+    }
 })
