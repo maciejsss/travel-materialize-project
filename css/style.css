@@ -1,1 +1,8 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.section-search input {
+  padding: 0 15px !important;
+  font-size: 18px;
+  width: 90%;
+  border: #f4f4f4 3px solid;
+}
+
+/*# sourceMappingURL=style.css.map */
