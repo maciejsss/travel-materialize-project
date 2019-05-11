@@ -29,3 +29,9 @@ M.Autocomplete.init(ac, {
         "Aruba": null,
     }
 })
+
+// Material Boxed
+
+
+const mb = document.querySelectorAll('.materialboxed');
+M.Materialbox.init(mb, {})
