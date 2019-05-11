@@ -34,4 +34,11 @@ M.Autocomplete.init(ac, {
 
 
 const mb = document.querySelectorAll('.materialboxed');
-M.Materialbox.init(mb, {})
+M.Materialbox.init(mb, {});
+
+
+// Scrollspy
+
+
+const ss = document.querySelectorAll('.scrollspy');
+M.ScrollSpy.init(ss, {})
