@@ -13,3 +13,16 @@
         margin: 5px 10px;
     }
 }
+
+
+.sidenav {
+    width: 250px;
+    padding-top: 200px;
+    background-color: rgba(255, 255, 255, 0.836);
+
+    li {
+        a {
+            text-transform: uppercase;
+        }
+    }
+}
